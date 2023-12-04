@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PACMAN</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img\favicon.ico" type="image/x-icon" />
+
+    <!-- Importing External Stylesheet and JavaScript -->
+    <link rel="stylesheet" href="style.css" />
+    <script src="game.js" defer></script>
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="mod-game">
+        <div class="info">
+          <p>Press [space]/[enter] to pause or continue</p>
+        </div>
+        <canvas id="canvas" width="960" height="640"></canvas>
+        <div class="intro">
+          <h2>
+            Instructions:
+            <ul>
+              <li>
+                <span class="strong">Objective:</span> Eat all the food to win
+                the game.
+              </li>
+              <li>
+                <span class="strong">Power-Up:</span> Grab special food to make
+                ghosts edible and scared.
+              </li>
+              <li>
+                <span class="strong">Eating Ghosts:</span> While scared, Pac-Man
+                can eat ghosts for extra points.
+              </li>
+              <li>
+                <span class="strong">Ghost Hideout:</span> Eaten ghosts return
+                to hideout; wait for them to respawn.
+              </li>
+              <li>
+                <span class="strong">Extra Lives:</span> You have 4 lives. Be
+                strategic to reach level 12.
+              </li>
+              <li>
+                <span class="strong">Next Level:</span> Progress to the next
+                level after clearing all the food.
+              </li>
+            </ul>
+            <p>
+              Good Luck! Conquer all 12 levels and Enjoy your Pac-Man Adventure!
+            </p>
+          </h2>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

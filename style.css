@@ -1,0 +1,157 @@
+html {
+  font-size: 16px;
+  color: #fff;
+  background: #000000d3;
+}
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+  margin: 1em;
+  padding: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+fieldset,
+img {
+  border: 0;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+  font-style: normal;
+  font-weight: normal;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+caption,
+th {
+  text-align: left;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+q:before,
+q:after {
+  content: "";
+}
+abbr,
+acronym {
+  border: 0;
+  font-variant: normal;
+}
+
+sup {
+  vertical-align: text-top;
+}
+
+sub {
+  vertical-align: text-bottom;
+}
+
+input,
+textarea,
+select {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+legend {
+  color: #000;
+}
+
+.wrapper {
+  width: 60em;
+  margin: 0 auto;
+  color: #999;
+}
+
+canvas {
+  display: block;
+  background: #000;
+  margin: 1em 1em 1em -1em;
+}
+
+.mod-game .info {
+  padding: 0.625em 0;
+  margin-bottom: 0.3125em;
+  line-height: 1.25em;
+  text-align: center;
+  width: 100%;
+}
+
+.mod-game .info p {
+  line-height: 0.5em;
+  font-size: 1em;
+  color: #ffffff83;
+}
+
+.mod-game .intro {
+  padding: 0.625em 0.9375em;
+  background: #0000009e;
+  border-radius: 1em;
+  width: 80%;
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.mod-game .intro p {
+  line-height: 1.375em;
+  font-size: 0.9em;
+  text-align: center;
+  font-weight: bold;
+}
+
+.mod-game .intro ul li {
+  font-weight: 300;
+}
+
+.strong {
+  font-weight: bold;
+}
