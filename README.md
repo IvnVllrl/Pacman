@@ -45,5 +45,5 @@ Make sure you have a modern web browser installed.
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/your-username/pacman-adventure.git
+   git clone https://github.com/IvnVllrl/Pacman
    ```
